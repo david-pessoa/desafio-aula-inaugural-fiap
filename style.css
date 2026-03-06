@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ececec;
+  font-family: Archivo, Arial;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #121214;
+  width: 100vw;
+  height: 368px;
+}
+
+.titles {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+main {
+  max-width: 736px;
+  margin: -200px auto 0 auto;
+}
+
+form {
+  background-color: #fafafc;
+  border-radius: 16px 16px 0 0;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: none;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  color: #4e4958;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  border: #e6e6f0 solid 1px;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Archivo, Arial;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input {
+  height: 56px;
+}
+
+textarea {
+  padding-top: 10px;
+  height: 168px;
+  resize: none;
+}
+
+.button-container {
+  background-color: #f0f0f4;
+  border-top: #d6d6d6 solid 1px;
+  height: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #db1b1b;
+  color: #fff;
+  border: none;
+  width: 608px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 16px;
+  cursor: pointer;
+}
