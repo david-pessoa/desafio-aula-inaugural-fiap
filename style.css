@@ -75,6 +75,7 @@ textarea {
   padding-left: 10px;
   padding-right: 10px;
   font-family: Archivo, Arial;
+  font-size: 14px;
 }
 
 input:focus,
